@@ -1,0 +1,33 @@
+{
+  "title": "Interactive Code",
+  "description": "Displays an interactive code example",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 1,
+  "author": "Dr Aneesha Bakharia",
+  "license": "cc-by-sa",
+  "machineName": "H5P.InteractiveCode",
+  "preloadedJs": [
+    {
+      "path": "klipse/klipse_plugin.js"
+    },
+    {
+      "path": "klipse/javascript.inc.js"
+    },
+    {
+      "path": "klipse/pretty_format.js"
+    },
+    {
+      "path": "interactivecode.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "klipse/codemirror.css"
+    },
+    {
+      "path": "interactivecode.css"
+    }
+  ]
+}

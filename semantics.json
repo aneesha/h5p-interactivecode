@@ -1,0 +1,48 @@
+[
+  {
+    "label": "Code Snippet",
+    "name": "code_snippet",
+    "type": "text",
+    "default": "var x = 1;",
+    "description": "The code will be displayed, executed and be editable.",
+    "widget": "textarea"
+  },
+
+  {
+    "name": "programming_language",
+    "type": "select",
+    "label": "Programming Language",
+    "description": "Select the Programming Language that is used in the example",
+    "options": [
+      {
+        "value": "javascript",
+        "label": "Javascript"
+      },
+      {
+        "value": "python",
+        "label": "Python"
+      },
+      {
+        "value": "python",
+        "label": "Python"
+      },
+      {
+        "value": "ruby",
+        "label": "Ruby"
+      },
+      {
+        "value": "C++",
+        "label": "C++"
+      },
+      {
+        "value": "php",
+        "label": "PHP"
+      },
+      {
+        "value": "sql",
+        "label": "SQL"
+      }
+    ],
+    "default": "javascript"
+  }
+]
