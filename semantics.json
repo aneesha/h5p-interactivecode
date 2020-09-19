@@ -1,5 +1,13 @@
 [
   {
+    "label": "Instruction",
+    "name": "instruction",
+    "type": "text",
+    "default": "Enter instruction here",
+    "description": "The instruction is displayed above the code snippet.",
+    "widget": "textarea"
+  },
+  {
     "label": "Code Snippet",
     "name": "code_snippet",
     "type": "text",
@@ -7,7 +15,6 @@
     "description": "The code will be displayed, executed and be editable.",
     "widget": "textarea"
   },
-
   {
     "name": "programming_language",
     "type": "select",
@@ -27,7 +34,7 @@
         "label": "Ruby"
       },
       {
-        "value": "C++",
+        "value": "cpp",
         "label": "C++"
       },
       {

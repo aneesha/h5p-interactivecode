@@ -43,6 +43,9 @@ H5P.InteractiveCode = (function ($) {
 
     var language = eval_lable_lookup[this.options.programming_language];
 
+    // Add instruction.
+    $container.append('<div>' + this.options.instruction + '</div>');
+
     // Add code snippet text.
     $container.append('<div class="code-snippet" id="' + custom_id + '">' + this.options.code_snippet + '</div>');
 
